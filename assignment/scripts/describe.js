@@ -72,10 +72,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-//
-//
-//
+// We set isStudent to true, age to 34 and zip to 55407
+//We then run a conditional statement that if isStudent is true AND zip>80000 thus making it a condition
+// that both sides have to be correct
+//Because it is not correct, we do not console log 'You're a student on the West Coast!'
+//We move on to the next part of the conditional whereby either isStudent is false OR age is less than 30
+//Thus only one side has to be true, however neither is correct so we do not console log 'What are your hobbies?'
+//We then move on to the next condition where isStudent is true and this is correct so we console log
+//'Welcome to Prime!'
+//Because we the code was executed previously the next line of code is not ran
 
 //CODE
 /*
@@ -132,12 +137,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
+console.log(mix);
 
 if (mix === true) {
-  colorOne = 'purple';
+   colorOne = 'purple';
+   colorTwo = 'purple';
 }
 */
 
@@ -146,10 +153,10 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
-let temp = 40;
+const temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -162,9 +169,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+if(age >= minAge) {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
